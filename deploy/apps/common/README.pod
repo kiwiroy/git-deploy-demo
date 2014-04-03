@@ -1,0 +1,32 @@
+=pod
+
+=head1 common hooks directory
+
+Scripts in here should be named after the phase during which they are intended 
+to be executed.
+
+The phase should be one of the available phase hooks that git-deploy supports. 
+These are currently:
+
+ pre-start
+ post-start
+ pre-pull
+ post-pull
+ pre-sync
+ post-tag
+ post-sync
+ post-finish
+ post-abort
+ post-reset
+ post-tree-update
+ log
+
+=head2 example
+
+Examples of script names follow and include an integer to facilitate ordering
+of the scripts as it may well be important which order they are executed in.
+
+ pre-start.001.example.sh
+ pre-sync.001.final-check-before-sync.pl
+
+=cut

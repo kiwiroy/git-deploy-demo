@@ -1,0 +1,9 @@
+=pod
+
+=head1 sync hook directory
+
+Files in here should be named after the application
+
+e.g. git-deploy-demo.sync
+
+=cut
