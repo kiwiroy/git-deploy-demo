@@ -1,0 +1,8 @@
+#!/bin/bash
+
+## This is what git deploy init might do?
+
+git config --add deploy.tag-prefix git-deploy-demo
+git config --add deploy.deploy-file .deploy
+
+exit 0
